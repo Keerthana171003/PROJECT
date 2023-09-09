@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    
+
+    <title>Bokeh Charts</title>
+
+    
+</head>
+
+<body>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/3.0.1/bokeh.min.js"
+        integrity="sha512-p7EUyPmeDeOwHiu7fIZNboAcQLxei3sWtXoHoShWWiPNUSRng/Xs5JPcaFPRa4dKy9IuHjyIQuLE4caGCwuewA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <div style="display: flex; flex-wrap: nowrap; gap: 0;" >
+        <div style="flex: 1; padding: 10px; border: 1px solid #000; text-align: center;" class="container">
+            <h1 class="text-center py-4"></h1>
+            <div class="row mb-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="text-center">DataUsage</h4>
+                        {{ div[0] | safe }}
+                        {{ script[0] | safe }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+</body>
+
+</html>
